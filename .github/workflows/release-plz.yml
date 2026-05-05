@@ -130,7 +130,6 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    environment: crates-io
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
@@ -146,7 +145,6 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    environment: npm
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
