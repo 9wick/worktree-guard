@@ -64,6 +64,10 @@ This tool helps enforce a worktree-based workflow:
 3. Commits are blocked in the main worktree
 4. Branch switching away from the base branch is blocked in the main worktree
 
+## Why worktree-guard?
+
+When using git worktrees, it's easy to accidentally commit in the wrong worktree or switch branches unexpectedly. This tool prevents common mistakes by enforcing simple rules at the git hook level.
+
 ## License
 
 MIT
