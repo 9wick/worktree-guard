@@ -1,0 +1,32 @@
+{
+  "name": "worktree-guard",
+  "version": "0.1.0",
+  "description": "Git hook helper that enforces worktree isolation rules: prevents commits in root worktree and branch switching on protected branches.",
+  "homepage": "https://github.com/9wick/worktree-guard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9wick/worktree-guard.git"
+  },
+  "license": "MIT",
+  "author": "KoheiKido <kido@9wick.com>",
+  "type": "module",
+  "bin": {
+    "worktree-guard": "lib/index.js"
+  },
+  "files": [
+    "lib",
+    "binaries"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
