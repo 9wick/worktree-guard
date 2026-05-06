@@ -66,7 +66,7 @@ This tool helps enforce a worktree-based workflow:
 
 ## Why worktree-guard?
 
-When using git worktrees, it's easy to accidentally commit in the wrong worktree or switch branches unexpectedly. This tool prevents common mistakes by enforcing simple rules at the git hook level.
+When using git worktrees, it's easy to accidentally commit in the wrong worktree or switch branches unexpectedly. worktree-guard prevents these common mistakes by enforcing simple rules at the git hook level.
 
 ## License
 
